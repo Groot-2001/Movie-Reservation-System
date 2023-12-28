@@ -9,6 +9,7 @@ const MovieSchema = new Schema(
     Release_Year: Number,
     Description: String,
     Genre: String,
+    duration: Number,
     Rating: float,
   },
   {

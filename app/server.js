@@ -3,6 +3,10 @@ const express = require("express");
 const morgan = require("morgan");
 const app = express();
 
+//implicit imports
+const db = require("../database/db.setup");
+db();
+
 //basic port setup
 const PORT = process.env.PORT || 5000;
 
