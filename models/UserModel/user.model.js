@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+const bcrypt = require("bcrypt");
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema(
@@ -27,6 +27,7 @@ const UserSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "ProfileModel",
     },
+    role: { type: String, enum: ["user", "admin"], default: "user" },
   },
   {
     timestamps: true,
