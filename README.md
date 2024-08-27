@@ -4,3 +4,5 @@ You are required to build backend system for a movie reservation service. The se
 ## Data Points
 ![image](https://github.com/user-attachments/assets/68db1567-7971-4368-bbd6-07d35b33105f)
 
+## Data Relations
+![image](https://github.com/user-attachments/assets/43cff34a-7d7d-4652-9871-ec800ddef6bc)
