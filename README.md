@@ -8,4 +8,4 @@ You are required to build backend system for a movie reservation service. The se
 <img src="https://github.com/user-attachments/assets/43cff34a-7d7d-4652-9871-ec800ddef6bc" style="width:600px" />
 
 ## Detail of Each Data Points.
-<img src="https://github.com/user-attachments/assets/a3a621c5-c2db-4fd8-86c6-b20bd8789a27" style="width:800px" />
+<img src="https://github.com/user-attachments/assets/84dc50de-fa47-466d-9fe8-c440895d0d8a" style="width:800px" />
