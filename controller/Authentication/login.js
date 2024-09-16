@@ -1,4 +1,4 @@
-const User = require("../../models/UserModel/user.model");
+const User = require("../../models/UserModel/user");
 
 //user story
 // users gonna provide there email id and password

@@ -4,7 +4,8 @@ const morgan = require("morgan");
 const app = express();
 
 //implicit imports
-const db = require("../database/db.setup");
+const db = require("../database/db");
+const router = require("../routes/User/user_routes");
 db();
 
 //basic port setup
@@ -14,9 +15,7 @@ const PORT = process.env.PORT || 5000;
 app.use(morgan("tiny"));
 
 //setting up with routes
-app.use("/", (req, res) => {
-  res.send("Welcome to the Movie App.");
-});
+app.use(router);
 
 //setting up with servers
 app.listen(PORT, () => {
